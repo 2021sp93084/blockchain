@@ -1,0 +1,75 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\I526701\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jre1.8.0_341\bin;C:\Users\I526701\Downloads\flutter_windows_3.3.9-stable\flutter\bin;C:\Program Files\Android\Android Studio\bin;C:\Users\I526701\AppData\Local\Android\Sdk\tools\bin;C:\Users\I526701\AppData\Local\Pub\Cache\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\I526701\AppData\Local\Microsoft\WindowsApps;C:\Users\I526701\AppData\Local\Programs\Git\cmd;C:\Users\I526701\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\I526701\AppData\Roaming\npm;C:\Users\I526701\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jre1.8.0_341\bin;C:\Users\I526701\Downloads\flutter_windows_3.3.9-stable\flutter\bin;C:\Program Files\Android\Android Studio\bin;C:\Users\I526701\AppData\Local\Android\Sdk\tools\bin;C:\Users\I526701\AppData\Local\Pub\Cache\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\I526701\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:814:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at TLSSocket.Socket._onTimeout (node:net:526:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "mortgage_processing",
+    "version": "0.0.1",
+    "description": "An oversimplified mortgage blockchain demo",
+    "dependencies": {
+      "connect-history-api-fallback": "^1.5.0",
+      "truffle-default-builder": "^2.0.0"
+    },
+    
+    
+    "scripts": {
+      "lint": "eslint ./",
+      "build": "webpack",
+      "dev": "webpack-dev-server"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.22.2",
+      "babel-core": "^6.22.1",
+      "babel-eslint": "^6.1.2",
+      "babel-loader": "^6.2.10",
+      "babel-plugin-transform-runtime": "^6.22.0",
+      "babel-preset-env": "^1.1.8",
+      "babel-preset-es2015": "^6.22.0",
+      "babel-register": "^6.22.0",
+      "copy-webpack-plugin": "^4.0.1",
+      "css-loader": "^0.26.1",
+      "eslint": "^3.14.0",
+      "eslint-config-standard": "^6.0.0",
+      "eslint-plugin-babel": "^4.0.0",
+      "eslint-plugin-mocha": "^4.8.0",
+      "eslint-plugin-promise": "^3.0.0",
+      "eslint-plugin-standard": "^2.0.0",
+      "html-webpack-plugin": "^2.28.0",
+      "json-loader": "^0.5.4",
+      "style-loader": "^0.13.1",
+      "truffle-contract": "^1.1.11",
+      "web3": "^0.20.0",
+      "webpack": "^2.2.1",
+      "webpack-dev-server": "^2.9.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
